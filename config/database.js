@@ -8,14 +8,13 @@ module.exports = ({ env }) => ({
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 3306),
         database: env('DATABASE_NAME', 'blog'),
-        username: env('DATABASE_USERNAME', 'root'),
+        username: env('DATABASE_USERNAME', 'alison'),
         password: env('DATABASE_PASSWORD', '12345678'),
       },
       options: {},
     },
   },
 });
-
 
 // module.exports = ({ env }) => ({
 //   defaultConnection: 'default',
@@ -32,3 +31,5 @@ module.exports = ({ env }) => ({
 //     },
 //   },
 // });
+
+
